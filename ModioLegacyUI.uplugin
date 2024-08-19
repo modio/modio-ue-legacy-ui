@@ -1,0 +1,49 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ModioLegacyUI",
+	"Description": "Legacy UE5 UI Implementation",
+	"Category": "Other",
+	"CreatedBy": "mod.io Pty Ltd",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ModioUI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ModioUICore",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"LocalizationTargets": [
+		{
+			"Name": "ModioUICore",
+			"LoadingPolicy": "Always",
+			"ConfigGenerationPolicy": "Never"
+		},
+		{
+			"Name": "ModioUI",
+			"LoadingPolicy": "Always",
+			"ConfigGenerationPolicy": "Never"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "CommonUI",
+			"Enabled": true
+		},
+		{
+			"Name": "Modio",
+			"Enabled": true
+		}
+	]
+}
